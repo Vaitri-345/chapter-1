@@ -1,18 +1,14 @@
 #include<stdio.h>
-void england(){
-    printf("you are in england\n");
-    return;
+void i(){
+    printf("you ");
+}void j(){
+    printf("are ");
+    i();
+}void k(){
+    printf("how ");
+    j();
+}int main(){
+    printf("hello ");
+    k();
 }
-void australia(){
-    printf("you are in australia\n");
-    england();
-    return ;
-}
-void india(){
-    printf("you are in india\n");
-    australia();
-    return ;
-}
-int main(){
-    india();
-}
+    
